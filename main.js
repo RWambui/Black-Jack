@@ -64,7 +64,7 @@ function renderGame() {
     messageEl.textContent = message;
 }
 
-function newCard() {
+function getCard() {
     if (isAlive === true && hasBlackJack === false) {
         let card = getRandomCard();
         sum += card;
