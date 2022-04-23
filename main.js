@@ -1,5 +1,5 @@
 let player = {
-    name: "Bobo Rabbit",
+    name: "Bobo",
     chips: 200,
 };
 
@@ -25,6 +25,15 @@ function getRandomCard() {
         return randomNumber;
     }
 }
+
+// function startGame() {
+//     isAlive = true;
+//     let firstCard = getRandomCard();
+//     let secondCard = getRandomCard();
+//     cards = [firstCard, secondCard];
+//     sum = firstCard + secondCard;
+//     renderGame();
+// }
 
 function startGame() {
     isAlive = true;
